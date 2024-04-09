@@ -82,7 +82,12 @@ else:
 
 
 # In[ ]:
-
+ Given a list fruits = ['apple', 'banana', 'cherry'], how can you check if the string 'banana' is present in the list without using a loop?
+l=['apple', 'banana', 'cherry']
+if 'banana' in l:
+    print("yes")
+else:
+    print("no")
 
 
 
