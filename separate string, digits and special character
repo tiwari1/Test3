@@ -1,0 +1,22 @@
+#WAP separate string, digits and special character
+x='rger4544#$%^'
+for i in x:
+    if i.isalpha():# x=r so i.isalpha()==True # x=4 so x.isalpha()==false so condition change
+        print("ALPHABET IS: " ,i)
+    elif i.isdigit():#x=4 so i.isdigit()==True # x=r so x.isdigit()==false
+        print("DIGIT IS :" ,i)
+    else:
+        print("special character",i)
+OUTPUT: 
+ALPHABET IS:  r
+ALPHABET IS:  g
+ALPHABET IS:  e
+ALPHABET IS:  r
+DIGIT IS : 4
+DIGIT IS : 5
+DIGIT IS : 4
+DIGIT IS : 4
+special character #
+special character $
+special character %
+special character ^
